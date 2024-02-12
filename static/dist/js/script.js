@@ -47,11 +47,6 @@ async function readResponseChunks(reader, answerBlock){
 }
 
 
-
-
-
-
-
 document.addEventListener("DOMContentLoaded", () =>{
     const form = document.querySelector("#prompt-form");
     const spinnerIcon = document.querySelector("#spinner-icon");
